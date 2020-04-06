@@ -4,7 +4,7 @@ on:
       - master
 
 env:
-  ResourceGroup: letsencrypt-func
+  ResourceGroup: core-se-fkt-letsencrypt
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 3.1.100
+        dotnet-version: 3.1.201
     - name: build
       run: dotnet build -c Release
     - name: test
