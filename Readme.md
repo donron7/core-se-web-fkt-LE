@@ -14,7 +14,7 @@ If you want to know how to setup an Azure CDN based website backed by Blob Stora
 
 # Details
 
-The function runs on a daily schedule and automatically renews all certificates that are close to expiring (based on a configurable threshold). In such a case the function will issue a new certificate for the app service/CDN and automatically configure it.
+The function runs on a daily schedule and automatically renews all certificates close to expiring (based on a configurable threshold). In such a case the function will issue a new certificate for the app service/CDN and automatically configure it.
 
 # Features
 
