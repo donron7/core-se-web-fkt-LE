@@ -4,7 +4,7 @@ on:
       - master
 
 env:
-  ResourceGroup: core-se-fkt-letsencrypt
+  ResourceGroup: core-letsencrypt-automation
 jobs:
   build:
     runs-on: ubuntu-latest
